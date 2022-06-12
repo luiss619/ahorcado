@@ -1,0 +1,88 @@
+/* HEADER */
+.navbar-custom { background: #FF0000 !important; padding: 10px !important; }
+.navbar-custom h1 { color: white !important; font-weight: 900 !important; }
+
+h2 { font-weight: 900 !important; margin-bottom: 25px !important; }
+.msg_error { color: red !important; width: 100% !important; }
+ul.list{ text-align: left; display:inline-block; font-size: 13px !important; }
+.card-reglas { background: #DCDBD8 !important; padding: 15px !important; margin-bottom: 25px !important; }
+.card-reglas p { font-weight: 600 !important; font-size: 25px !important; margin-bottom: 0px !important; }
+.card-reglas small { font-weight: 900 !important; margin-bottom: 12px !important; }
+.num_jugadors { border: 1px solid black !important; border-radius: 8px !important; width: 100% !important; padding: 10px !important; display: block !important;
+cursor: pointer; }
+.num_jugadors.active { background: #FF0000 !important; color: white !important; font-weight: 900 !important; }
+.block_jugador { border: 1px solid lightgray !important; padding: 15px !important; border-radius: 10px !important; margin-bottom: 10px !important; }
+.block_jugador.block_jugador_error { border: 2px solid #FF0000 !important; }
+.block_jugador .img_no_perfil { width: 100% !important; border-radius: 50% !important; border: 1px solid black !important; cursor: pointer; }
+.block_jugador button { color: #FF0000 !important; background: white !important; border: none !important; font-size: 10px !important; }
+.btn_start_game { background: #FF0000 !important; border: 2px solid white !important; color: white !important; border-radius: 8px !important;
+	font-size: 20px !important; padding: 10px 20px !important; margin-top: 12px !important; margin-bottom: 20px !important; }
+.img_do_perfil { width: 100% !important; border: 1px solid black !important; cursor: pointer; border-radius: 50% !important; }
+
+.zona_ahorcado .letter { border-bottom: 2px solid black !important; font-size: 26px !important; width: 30px !important; display: inline-block !important; margin-right: 5px !important; }
+.zona_ahorcado .letter.letter_espacio { margin-left: 5px !important; margin-right: 5px !important; border: none !important; }
+.zona_abc .abc_let { display: inline-block !important; margin-right: 15px !important; margin-bottom: 10px !important; width: 45px !important; height: 45px !important; cursor: pointer;
+	font-size: 22px !important; padding: 5px !important; font-weight: 900 !important; border: 1px solid black !important; text-align: center !important; border-radius: 50% !important; }
+.zona_abc .abc_let_1 { background: #97FF00 !important; cursor: auto !important; }
+.zona_abc .abc_let_2 { background: #FF0000 !important; cursor: auto !important; }
+.zona_abc .abc_let_desactivated { cursor: auto !important; }
+.card_player { max-width: 1050px !important; margin: auto !important; }
+.card_player .col_to_player { width: 90% !important; margin: auto !important; }
+.card_player .col_to_player .block_jugador { height: 300px !important; }
+.card_player .col_to_player .block_jugador img.img_no_perfil { height: 200px !important; width: auto !important; }
+.card_player .intentos_text { font-size: 45px !important; line-height: 50px !important; font-weight: 900 !important; margin-top: 30px !important; margin-bottom: 15px !important; }
+.card_player .intentos { font-size: 55px !important; font-weight: 900; border: 1px solid black !important; border-radius: 50% !important; display: inline-block !important;
+	width: 90px !important; height: 90px !important; padding: 0px !important; margin-top: 20px !important; }
+.card_player .btn_continue_gaming { background: #FF0000 !important; color: white !important; }
+.card_player .zona_ahorcado_dib { position: relative !important; border: 1px solid lightgray !important; border-radius: 12px !important; height: 300px !important; margin: auto !important; }
+.card_player .zona_ahorcado_dib img { }
+.card_player .zona_ahorcado_dib img.img_hierba { position: absolute; width: 100% !important; bottom: 0px !important; left: 0px; }
+.card_player .zona_ahorcado_dib img.img_arbol { position: absolute; right: -25px !important; width: 280px !important; bottom: 5px; }
+.card_player .zona_ahorcado_dib img.img_nudo { position: absolute; width: 50px !important; left: 64px; top: 85px; }
+.card_player .zona_ahorcado_dib img.img_sol { position: absolute; width: 100px !important; left: -10px; top: 50px; }
+.card_player .zona_ahorcado_dib img.img_ahorcado { position: absolute; width: 25px !important; left: 75px; top: 150px; }
+
+/* Parte 3 */
+.msg_felicitats { color: black !important; font-size: 35px !important; font-weight: 900; }
+.msg_perdedores { font-size: 25px !important; font-weight: 900; }
+.jug_ganador { display: inline-block !important; border: 1px solid lightgray !important; border-radius: 12px !important; padding: 15px !important; width: 200px !important; height: auto !important;
+margin-right: 12px !important; }
+.jug_ganador img { border: 1px solid lightgray !important; border-radius: 50% !important; padding: 12px !important; width: 100% !important; animation: salto 0.8s infinite; }
+.jug_ganador p { font-size: 25px !important; font-weight: 900; margin-bottom: 0px !important; }
+.jug_ganador .barra_vida_100 { background: #64FF32; padding: 4px !important; border-radius: 10px !important; text-align: center !important; }
+.jug_ganador .barra_vida_100 .vida_text { float: left !important; padding-left: 5px; font-size: 10px !important; line-height: 25px !important; font-weight: bold; }
+.jug_ganador .barra_vida_100 .vida_val { font-weight: bold; font-size: 15px; line-height: 25px !important; }
+
+.jug_perdedor { display: inline-block !important; border: 1px solid lightgray !important; border-radius: 12px !important; padding: 15px !important; width: 200px !important; height: auto !important;
+margin-right: 12px !important; }
+.jug_perdedor img { border: 1px solid lightgray !important; border-radius: 50% !important; padding: 12px !important; width: 100% !important; }
+.jug_perdedor p { font-size: 25px !important; font-weight: 900; margin-bottom: 0px !important; }
+.jug_perdedor .barra_vida_0 { background: #FF3232; padding: 4px !important; border-radius: 10px !important; text-align: center !important; }
+.jug_perdedor .barra_vida_0 .vida_text { float: left !important; padding-left: 5px; font-size: 10px !important; line-height: 25px !important; font-weight: bold; }
+.jug_perdedor .barra_vida_0 .vida_val { font-weight: bold; font-size: 15px; line-height: 25px !important; }
+
+
+.btn_reiniciar_juego { background: black !important; color: white !important; font-size: 20px !important; }
+.btn_comenzar_nuevo { background: #FF0000 !important; color: white !important; font-size: 20px !important; }
+
+@keyframes salto {
+	0% 		{ top: 0; }
+	30% 	{ top: -25px; } 
+	100% 	{ top: 0; }
+}
+@keyframes mymove {
+  0% {top: 0px;}
+  50% {top: 50px;}
+  75% {top: 40px;}
+  100%{top: 0px;}
+}
+
+
+
+
+
+
+
+
+
+
