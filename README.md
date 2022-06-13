@@ -1,68 +1,40 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<h1>Penjat Edició Marvel</h1>
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+    <b>Características</b><br>
+    PHP 8.0 | Bootstrap 5 | Jquery 3.6 | Font awesome 6.1 | Animate 4.11
 </p>
 
-## About Laravel
+## About App
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+La siguiente aplicación muestra el juego del ahorcado en una versión web. Ha sido programado en PHP 8.0 usando el framework Laravel 8. 
+Dada la simplicitud de la aplicación, no ha sido necesario integrar una base de datos.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+El proyecto se encuentra alojado en un servidor personal con el siguiente subdominio:
+https://penjat.dinowebb.com/
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Si deseas descargarlo, puedes hacerlo a través de este repositorio o a través del enlace de más abajo
+https://penjat.dinowebb.com/ahorcado.zip
 
-## Learning Laravel
+Para su funcionamiento, únicamente tienes que seguir los siguientes pasos:
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- Asegurarte de que estás usando PHP 7.4 +
+- El document root debe empezar dentro de la carpeta public
+- Asegurarte de que tienes los permisos correctos de las carpetas. Más info: https://diegooo.com/revision-5-consejos-para-codigos-de-laravel/
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Funcionamiento
 
-## Laravel Sponsors
+El proceso del juego consta de 3 pasos:
+- En el primer paso, debes escoger el nº de jugadores que participarán asignandoles un avatar y un nombre
+- En el segundo paso, cada jugador deberá descubrir su palabra oculta teniendo un máximo de 5 intentos. Cuando acabe su turno (al acertar la palabra o al fallar 5 veces) se saltará el turno al siguiente jugador. Al completar todos los turnos, se irá al paso 3
+- En el tercer paso, podrás ver los resultados del juego (ganadores y perdedores) y podrás reiniciar el juego o solicitar una revancha
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+La lista de opciones disponibles para el juego la puedes encontrar en el siguiente enlace:
+https://penjat.dinowebb.com/personajes.json
 
-### Premium Partners
+## Juegos de pruebas
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Para asegurar el buen funcionamiento del juego, se han realizado las pruebas que aparecen en el documento de más abajo.
+https://penjat.dinowebb.com/pruebas.pdf
 
 ## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# ahorcado
-# ahorcado
-# ahorcado
-# ahorcado
